@@ -34,6 +34,8 @@ We implemented hand tracking for grabing and picking up an objects. This impleme
 To generate heat map, we first have to combined both line sight (Laser.cs & Laser2.cs) to one center line sight for correctly generate heatmap when looking at close objects. Here we could receive the global position of hiting point and UV coordinate of hitting point at an object this enable us to bring these value to Shader which can visualize the attention data heatmap in real-time and save it as CSV file. The scripts for this implementation are [bothEyeController.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/bothEyeController.cs), [WritePlease.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/WritePlease.cs) and [HeatMapShader 1.shader](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/HeatMapShader1.shader)
 
 ## Result
+![Result of heatmap in unity](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/Result.gif)
+
 
 ### Future work
 * Solving the issue of not being able to obtain UV coordinates from objects with attached Rigid Body
