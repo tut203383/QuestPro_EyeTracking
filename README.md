@@ -18,13 +18,13 @@ Imaging and Light in Extended Reality (IMLEX)
 #### [Source Code](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/)
 
 ## Eye Tracking Setting
-Implimention of eye tracking on Quest Pro based on [this page](https://note.com/npaka/n/n3761152ae06c). It is Japanese language, 
+Implemention of eye tracking on Quest Pro based on [this page](https://note.com/npaka/n/n3761152ae06c). It is Japanese language, 
 you may need to use a browser translater to be able to go through it. The eye tracking function on Quest pro current is available for only position and rotation transformation. It is not able to measure the pupil diameter. The scripts for both eye are [EyeGazeController.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/EyeGazeController.cs) and [EyeGazeController2.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/EyeGazeController2.cs)
 
-Besides, we implemented lasers for both eye that breaks off when it hits an object. This enable us to detect where user is looking at (e.g. distance: far & near). 
+Besides, we implemented lasers for both eye that breaks off when it hits an object. This enable us to detect where user is looking at (e.g. distance: far & near objects). 
 We used Ray and LineRenderer in this implementation, Scripts are [Laser.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/Laser.cs) and [Laser2.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/Laser1.cs)
 
-Here, we also tried out with particle system that when the laser(line if sight) hit an object then the particles was emitted.[HeatmapGenerator.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/HeatmapGenerator.cs)
+Here, we also tried out with particle system that when the laser(line of sight) hit an object then the particles was emitted.[HeatmapGenerator.cs](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/ProjectEyeTrackingGaze/HeatmapGenerator.cs)
 ![Example of using particle system](https://github.com/tut203383/QuestPro_EyeTracking/blob/master/video.gif)
 
 ## Hand Tracking Setting
