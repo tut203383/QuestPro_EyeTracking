@@ -42,4 +42,4 @@ To generate heat map, we first have to combined both line sight (Laser.cs & Lase
 * Real-time visualization of gaze on 3D objects using shaders
 
 ### Acknowledgements
-We am grateful to Professor Philippe Colantoni for giving guidance and idea of this project as well as providing Quest Pro headset and enable Developer mode on Quest pro for Eye tracking. 
+We are grateful to Professor Philippe Colantoni for giving guidance and idea of this project as well as providing Quest Pro headset and enable Developer mode on Quest pro for Eye tracking. 
